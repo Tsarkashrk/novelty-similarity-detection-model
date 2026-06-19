@@ -1,0 +1,7 @@
+query_id,candidate_id,label
+T009,T003,near_duplicate
+T010,T002,near_duplicate
+T004,T007,novel
+T005,T006,novel
+T003,T003,duplicate
+T001,T001,duplicate

@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thesis-novelty-detection"
+version = "0.1.0"
+description = "Hybrid model for thesis topic novelty scoring and duplicate detection."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Thesis Novelty Detection" }
+]
+dependencies = []
+
+[project.optional-dependencies]
+api = [
+  "fastapi>=0.110",
+  "uvicorn>=0.29",
+  "pydantic>=2.6"
+]
+embeddings = [
+  "sentence-transformers>=2.7"
+]
+experiment = [
+  "matplotlib>=3.8",
+  "pandas>=2.0",
+  "scikit-learn>=1.4"
+]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.4"
+]
+
+[project.scripts]
+thesis-novelty = "thesis_novelty.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
