@@ -1,0 +1,131 @@
+query_id,candidate_id,label,label_source,confidence,rationale
+OA0108,OA0057,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0042,OA0139,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0093,OA0148,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0016,OA0016,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+NEAR0035,OA0065,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0051,OA0140,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+NEAR0007,OA0037,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+DUP0023,OA0023,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+OA0154,OA0083,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+NEAR0037,OA0067,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0041,OA0109,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+NEAR0010,OA0040,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0042,OA0095,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0015,OA0015,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+NEAR0017,OA0047,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0011,OA0041,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0003,OA0033,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0012,OA0042,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0042,OA0119,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0022,OA0022,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+DUP0020,OA0020,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+OA0118,OA0037,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+NEAR0032,OA0062,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+DUP0003,OA0003,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+DUP0029,OA0029,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+OA0001,OA0068,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0017,OA0087,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0060,OA0026,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+NEAR0018,OA0048,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0020,OA0050,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0021,OA0051,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0023,OA0152,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+NEAR0004,OA0034,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0069,OA0019,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0021,OA0021,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+NEAR0009,OA0039,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0005,OA0035,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0008,OA0038,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0072,OA0002,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0116,OA0031,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+NEAR0019,OA0049,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0038,OA0068,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0098,OA0153,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0069,OA0017,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0077,OA0130,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0109,OA0009,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+NEAR0015,OA0045,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0120,OA0136,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0019,OA0019,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+OA0029,OA0093,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0017,OA0099,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+NEAR0024,OA0054,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0052,OA0080,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0088,OA0072,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0040,OA0096,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0004,OA0004,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+DUP0026,OA0026,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+OA0156,OA0044,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0025,OA0092,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+NEAR0034,OA0064,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0029,OA0007,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0027,OA0027,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+DUP0011,OA0011,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+OA0041,OA0117,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0012,OA0012,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+DUP0002,OA0002,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+OA0098,OA0072,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0088,OA0029,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0103,OA0096,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0136,OA0001,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0015,OA0062,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0033,OA0122,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0076,OA0112,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0024,OA0024,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+OA0013,OA0029,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0018,OA0018,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+NEAR0028,OA0058,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0039,OA0069,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0087,OA0027,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0084,OA0015,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0081,OA0055,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0014,OA0014,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+NEAR0014,OA0044,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0022,OA0052,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0079,OA0062,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0098,OA0070,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0089,OA0155,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0068,OA0012,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0076,OA0159,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0007,OA0007,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+NEAR0030,OA0060,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0059,OA0009,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+NEAR0025,OA0055,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0016,OA0046,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0026,OA0056,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0118,OA0138,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0143,OA0057,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0013,OA0013,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+DUP0025,OA0025,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+NEAR0023,OA0053,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0128,OA0102,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0081,OA0103,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+NEAR0002,OA0032,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0031,OA0061,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0093,OA0057,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0007,OA0144,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0091,OA0054,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0017,OA0017,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+NEAR0040,OA0070,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+DUP0028,OA0028,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+NEAR0033,OA0063,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0032,OA0097,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+NEAR0006,OA0036,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0001,OA0031,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0036,OA0066,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0141,OA0043,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+NEAR0013,OA0043,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+OA0138,OA0069,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0005,OA0005,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+OA0129,OA0046,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0009,OA0009,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+DUP0030,OA0030,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+DUP0008,OA0008,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+OA0024,OA0098,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+OA0117,OA0094,novel,silver_distant_domain_pair,0.75,Different OpenAlex domains and low lexical overlap between titles and keywords.
+DUP0010,OA0010,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+DUP0001,OA0001,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
+NEAR0027,OA0057,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+NEAR0029,OA0059,near_duplicate,silver_paraphrase_variant,0.85,"Controlled title paraphrase with the same domain, abstract and keywords."
+DUP0006,OA0006,duplicate,silver_exact_variant,0.98,Synthetic duplicate variant generated from the same OpenAlex dissertation record.
