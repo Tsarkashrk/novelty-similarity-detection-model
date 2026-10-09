@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a reproducible problem in novelty assessment
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Observed behavior
+      description: Describe the result and why it is unexpected. Do not include private student data.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Use synthetic or public sample topics whenever possible.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Python version, operating system, embedding backend
+    validations:
+      required: true

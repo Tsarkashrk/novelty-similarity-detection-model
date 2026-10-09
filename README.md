@@ -1,5 +1,7 @@
 # Hybrid Thesis Topic Novelty Assessment Model
 
+[![Python CI and package candidate](https://github.com/Tsarkashrk/novelty-similarity-detection-model/actions/workflows/ci.yml/badge.svg)](https://github.com/Tsarkashrk/novelty-similarity-detection-model/actions/workflows/ci.yml)
+
 Этот проект реализует модель для темы диссертации:
 
 > Интеллектуальная платформа для управления дипломными и магистерскими проектами с функциями оценки новизны тем, устранения дублирования, назначения руководителей и мониторинга основных этапов.
@@ -141,6 +143,22 @@ PYTHONPATH=src python3 experiments/evaluate_thresholds.py \
 
 В папке `sql/` лежит схема таблиц для хранения тем, embedding-векторов и результатов сравнения. В текущем прототипе используется in-memory search, но интерфейс модели совместим с переходом на pgvector.
 
+## Разработка и проверка
+
+Нужен Python 3.10 или новее. Минимальная установка и тесты не требуют скачивания ML-модели:
+
+```bash
+python3 -m pip install -e .
+python3 -m unittest discover -s tests -v
+python3 -m compileall -q src
+```
+
+Изменения ведутся через Git. Для новой задачи создайте ветку, добавьте тест или воспроизводимый пример и откройте pull request. Шаблоны для ошибок и исследовательских задач доступны в [Issues](https://github.com/Tsarkashrk/novelty-similarity-detection-model/issues/new/choose). Не публикуйте реальные студенческие данные в issues или тестах.
+
+[GitHub Actions](https://github.com/Tsarkashrk/novelty-similarity-detection-model/actions/workflows/ci.yml) запускает тесты на Python 3.10 и 3.12 для push и pull request. После успешных тестов push в `main` создаёт wheel-файл и сохраняет его как артефакт workflow. Это кандидат для ручного выпуска; автоматического развёртывания в университетскую систему пока нет. Конфигурация: [`.github/workflows/ci.yml`](.github/workflows/ci.yml).
+
+Проект распространяется по [лицензии MIT](LICENSE). В исследовательской работе фиксируйте версию корпуса, модель embeddings, веса, пороги и набор размеченных пар; результаты hashing fallback не следует считать итоговой проверкой качества многоязычной модели.
+
 ## Структура
 
 ```text
@@ -164,4 +182,3 @@ sql/
 tests/
   test_model.py
 ```
-

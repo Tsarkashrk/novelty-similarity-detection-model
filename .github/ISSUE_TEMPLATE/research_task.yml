@@ -1,0 +1,19 @@
+name: Research or improvement task
+description: Propose an experiment, quality improvement, or integration task
+title: "[Research] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: State the research question or user need.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Acceptance evidence
+      description: Specify a dataset, metric, test, or reviewer outcome.
+    validations:
+      required: true
