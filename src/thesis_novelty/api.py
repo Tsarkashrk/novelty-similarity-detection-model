@@ -3,29 +3,37 @@
 from __future__ import annotations
 
 import os
+from typing import Any
 
 from thesis_novelty.embeddings import HashingEmbeddingBackend, SentenceTransformerEmbeddingBackend
 from thesis_novelty.io import load_topics_csv
 from thesis_novelty.model import ThesisNoveltyModel
 from thesis_novelty.schemas import ThesisTopic
 
+try:
+    from pydantic import BaseModel, Field
+except ImportError:  # pragma: no cover - handled with a clearer error in create_app()
+    BaseModel = object  # type: ignore[misc,assignment]
+
+
+class TopicRequest(BaseModel):
+    """Request body for novelty assessment."""
+
+    title: str = Field(..., min_length=3)
+    abstract: str = ""
+    keywords: list[str] = Field(default_factory=list)
+    domain: str = ""
+    language: str = ""
+
 
 def create_app():
     try:
         from fastapi import FastAPI
-        from pydantic import BaseModel, Field
     except ImportError as exc:
         raise ImportError(
             "FastAPI dependencies are not installed. "
             "Install them with: python3 -m pip install -e '.[api]'"
         ) from exc
-
-    class TopicRequest(BaseModel):
-        title: str = Field(..., min_length=3)
-        abstract: str = ""
-        keywords: list[str] = Field(default_factory=list)
-        domain: str = ""
-        language: str = ""
 
     data_path = os.getenv("THESIS_TOPICS_CSV", "data/sample_topics.csv")
     embedding_model = os.getenv("THESIS_EMBEDDING_MODEL", "")
@@ -43,7 +51,7 @@ def create_app():
     )
 
     @app.get("/health")
-    def health() -> dict[str, str | int]:
+    def health() -> dict[str, Any]:
         return {
             "status": "ok",
             "topics": len(model.topics),
@@ -63,4 +71,3 @@ def create_app():
         return model.assess(topic).to_dict()
 
     return app
-
