@@ -26,6 +26,12 @@ pipeline {
             steps {
                 sh 'docker build --target runtime -t thesis-novelty:${BUILD_NUMBER} .'
                 sh 'docker image inspect thesis-novelty:${BUILD_NUMBER} --format "{{.Id}}"'
+                sh 'docker build --target api -t thesis-novelty-api:${BUILD_NUMBER} .'
+            }
+        }
+        stage('Deploy test API') {
+            steps {
+                sh 'sh devops/deploy-local.sh thesis-novelty-api:${BUILD_NUMBER}'
             }
         }
     }
