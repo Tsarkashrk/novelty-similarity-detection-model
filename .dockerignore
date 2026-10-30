@@ -1,0 +1,16 @@
+.git
+.github
+.venv
+venv
+build
+deliverables
+data/openalex_silver
+data/reviewed_v1
+experiments
+sql
+tools
+__pycache__
+*.pyc
+*.docx
+*.pdf
+*.egg-info
